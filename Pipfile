@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+black = {editable = true, git = "https://github.com/psf/black.git"}
+flake8 = {editable = true, git = "https://github.com/PyCQA/flake8.git"}
+pytest = "*"
+pytest-mock = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.9"
